@@ -1,0 +1,37 @@
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+  top: 0;
+  left: 100%;
+}
+.nav-link:hover {
+  color: blue;
+}
+body {
+  background-image: url(./pexels-codioful-7134999.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-outline-primary:hover {
+  background-color: transparent;
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.img-hov {
+  height: 65vh;
+  transition: transform 0.3s ease;
+}
+.img-hov2 {
+  transition: transform 0.3s ease;
+}
+.img-hov2:hover {
+  transform: scale(1.1);
+}
+.img-hov:hover {
+  transform: scale(1.1);
+}
+.text-hov:hover {
+  color: #0d6efd;
+}
